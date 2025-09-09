@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+header{
+    background-image: linear-gradient(to top, #1A5C38, #37C777);
+    height: 174px;
+    padding: 0px;
+    margin: 1px;
+    border:  2px, #1A5C38;
+}
+body{
+    background-color: #84E1AD;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-family: sans-serif;
+}
+p{
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-family: sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    width: 900px;
+    height: 1000px;
+    margin: auto;
+}

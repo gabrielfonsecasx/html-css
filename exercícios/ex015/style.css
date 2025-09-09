@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: black
+}
+a{
+    color
+}
+h1{
+    color: #ffce47;
+}
+#principal{
+    color: white;
+    background-color: #ffce47;
+    text-align: center;
+}
+.coom{
+    color: #fff947;
+}
+h3{
+    color: #ffce47;
+}
+.esta{
+    color: white;
+}
+.destaque{
+    background-color: #ffce478e;
+    color: white;
+}
+div:hover{
+    color: rgb(89, 255, 0);
+}
