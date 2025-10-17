@@ -13,8 +13,52 @@
     --font02: 'Sriracha', Helvetica, sans-serif;
 }
 
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 35px 20px;
+}
+header h1{
+    font-size: 69px;
+    font-family: var(--font01);
+    padding: 20px 20px 0px 20px;
+}
+header a{
+    color: white;
+    font-family: var(--font01);
+    padding: 0px 20px 20px 20px;
+}
 
-
+section.normal{
+    padding: 50px 20px 50px 50px;
+}
+section.imagem{
+    padding: 50px 20px 50px 50px;
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+section.imagem p{
+    background-color: black;
+}
+section p{
+    font-size: 25px;
+    font-family: var(--font02);
+    line-height: 2.5em;
+}
+p#esp{
+    margin-bottom: 50px;
+}
 footer p{
     font-variant: small-caps;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 2px;
+    font-family: var(--font02);
+    color: white;
+}
+footer a{
+    color: white;
 }
