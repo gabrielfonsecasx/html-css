@@ -29,6 +29,121 @@ header a{
     font-family: var(--font01);
     padding: 0px 20px 20px 20px;
 }
+section.normal{
+    padding: 50px 50px 50px 50px;
+}
+section.imagem{
+        padding: 50px 50px 50px 50px;
+        background-color: rgba(0, 0, 0, 0.726);
+        color: white;
+        box-shadow: inset 6px 6px 13px 0px black;
+}
+section p{
+    font-size: 3vw;
+    line-height: 2.5em;
+}
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    text-shadow: 1px 1px 1px black;
+    padding: 5px;
+    font-family: var(--font02);
+}
+section.normal p{
+    font-family: var(--font02);
+}
+#img01{
+    background-image: url(./imagens/background001.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img02{
+    background-image: url(./imagens/background002.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p#esp{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 20px 35px 20px;
+}
+header h1{
+    font-size: 69px;
+    font-family: var(--font01);
+    padding: 20px 20px 0px 20px;
+}
+header a{
+    color: white;
+    font-family: var(--font01);
+    padding: 0px 20px 20px 20px;
+}
 
 section.normal{
     padding: 50px 20px 50px 50px;
