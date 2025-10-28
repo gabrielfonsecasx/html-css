@@ -9,9 +9,14 @@
         *{
             font-family: Arial, Helvetica, sans-serif;
         }
+        caption{
+           font-weight: bolder;
+           padding: 10px;
+        }
         td, th{
             border: 1px solid black;
             padding: 10px;
+
         }
         thead{
             color: white;
@@ -20,6 +25,9 @@
         tfoot{
             background-image: linear-gradient(to right, gray, darkgray);
             color: white;
+        }
+        tbody tr:nth-child(even){
+            background-color: lightgray;
         }
         table{
             border-collapse: collapse;
@@ -37,11 +45,13 @@
     </style>
 </head>
 <body>
+    
     <table>
+        <caption>NÚMERO DE POPULAÇÃO UNIDADES FEDERATIVAS</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -68,7 +78,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total</th>
+                <th scope="row">Total</th>
                 <td id="foot">213 421 037</td>
             </tr>
         </tfoot>
