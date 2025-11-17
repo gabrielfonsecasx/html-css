@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./pacote-d013/favicon.ico" type="image/x-icon">
+    <title>Projeto Social</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url(./pacote-d013/imagens/fundo-madeira.jpg);
+            background-position: top center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        main{
+            position: relative;
+        }
+        section#telefone{
+            background-image: url(./pacote-d013/imagens/frame-iphone.png);
+            background-repeat: no-repeat;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 627px;
+            width: 311px;
+            transform: translate(-50%, -50%);
+        }
+        iframe#tela{
+            position: relative;
+            width: 268px;
+            height: 471px;
+            top: 80px;
+            left: 22px;
+        }
+    </style>
+</head>
+<body>
+    <section id="telefone">
+        <iframe src="./tela.html" frameborder="0" name="tela" id="tela"> 
+
+        </iframe>
+    </section>
+    <section id="redes">
+
+    </section>
+    
+</body>
+</html>
