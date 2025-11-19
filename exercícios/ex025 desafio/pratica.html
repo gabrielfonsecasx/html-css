@@ -6,19 +6,68 @@
     <link rel="shortcut icon" href="./pacote-d013/favicon.ico" type="image/x-icon">
     <title>Projeto Social</title>
     <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-image: url(./pacote-d013/imagens/fundo-madeira.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
         
+        section#telefone{
+            background-image: url(./pacote-d013/imagens/frame-iphone.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            height: 627px;
+            width: 311px;
+            transform: translate(-50%, -50%);
+        }
+        iframe#tela{
+            position: relative;
+            top: 80px;
+            left: 22px;
+            width: 267px;
+            height: 473px;
+
+        }
+        section#redes{
+            text-align: right;
+        }
+        section#redes img{
+            width: 50px;
+            margin: 10px;
+            border-radius: 50%;
+            box-shadow: 9px 3px 15px #000000a6;
+            box-sizing: border-box;
+        }
+         section#redes img:hover{
+            border: 2px solid white;
+            transform: translate(-3px, -3px);
+            transition: transform 0.2s, border 0.2s;
+         }
+        section
     </style>
 </head>
 <body>
     <main>
         <section id="telefone">
-            <iframe src="./tela.html" frameborder="0" name="tela" id="tela">
+            <iframe src="tela.html" frameborder="0" name="tela" id="tela">
 
             </iframe>
         </section>
         <section id="redes">
-            <a href="./pratica.html"><img src="./pacote-d013/imagens/logo-home.jpg" alt=""></a> <br>
-            <a href="./yt.html" target="tela"><img src="./pacote-d013/imagens/logo-youtube.jpg" alt=""></a> <br>
+            <a href="tela.html" target="tela"><img src="./pacote-d013/imagens/logo-home.jpg" alt=""></a> <br>
+            <a href="./telas/yt.html" target="tela"><img src="./pacote-d013/imagens/logo-youtube.jpg" alt=""></a> <br>
+            <a href="./telas/tw.html" target="tela"><img src="./pacote-d013/imagens/logo-twitter.jpg" alt=""></a> <br>
+            <a href="#"><img src="" alt=""></a>
+            <a href="#"><img src="" alt=""></a>
         </section>
     </main>
     
@@ -82,6 +131,8 @@
             height: 471px;
             top: 80px;
             left: 22px;
+
+            
         }
             section#redes{
             text-align: right;
@@ -90,13 +141,15 @@
             border-radius: 50%;
             width: 50px;
         }
+<main>
+        <section id="telefone">
+            <iframe src="./tela.html" frameborder="0" name="tela" id="tela">
 
-<section id="telefone">
-        <iframe src="./tela.html" frameborder="0" name="tela" id="tela"> 
-
-        </iframe>
-    </section>
-    <section id="redes">
-
-    </section>
+            </iframe>
+        </section>
+        <section id="redes">
+            <a href="./pratica.html"><img src="./pacote-d013/imagens/logo-home.jpg" alt=""></a> <br>
+            <a href="./yt.html" target="tela"><img src="./pacote-d013/imagens/logo-youtube.jpg" alt=""></a> <br>
+        </section>
+    </main>
 -->
