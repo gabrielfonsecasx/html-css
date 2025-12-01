@@ -7,6 +7,67 @@
 </head>
 <body>
     <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="cadastro.php" method="get" autocomplete="on">
+            <p>
+                <label for="iname">Nome:</label>
+                <input type="text" name="name" id="iname" required autocomplete="name">
+            </p>
+            <p>
+                <label for="iemail">Email:</label>
+                <input type="email" name="email" id="email" required autocomplete="email">
+            </p>
+            <p>
+                <label for="inum">Número</label>
+                <input type="tel" name="num" id="inum" required placeholder="(XX) XXXX-XXXX" autocomplete="tel-national" max="11" min="10">
+            </p>
+        </form>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        
+    </fieldset>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+    <fieldset>
         <legend>Ddaos Pessoais</legend>
         <form action="cadastro.php" method="get" autocomplete="on">
             <p>
@@ -25,6 +86,4 @@
             <input type="reset" value="Limpar">
         </form>
     </fieldset>
-    
-</body>
-</html>
+-->
