@@ -6,42 +6,70 @@
     <link rel="shortcut icon" href="#" type="image/x-icon">
     <title>População por Estado</title>
     <style>
-        
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        table img{
+            width: 20px;
+        }
+        .num{
+            text-align: right;
+        }
+        thead, tfoot{
+            background-color: darkgrey;
+            color: white;
+        }
+        #foot{
+            font-weight: bolder;
+        }
+        caption{
+            padding: 10px;
+            font-size: 20px;
+        }
     </style>
 </head>
 <body>
     <table>
+        <caption>População por Estado do Brasil</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td> <img src="./imgs/Bandeira_do_estado_de_São_Paulo.svg.webp" alt=""> São Paulo</td>
-                <td>38 081 8014</td>
+                <td class="num">38 081 8014</td>
             </tr>
             <tr>
                 <td> <img src="./imgs/Bandeira_de_Minas_Gerais.svg.webp" alt=""> Minas Gerais</td>
-                <td>21 393 441</td>
+                <td class="num">21 393 441</td>
             </tr>
             <tr>
                 <td> <img src="./imgs/Bandeira_do_estado_do_Rio_de_Janeiro.svg.webp" alt=""> Rio de Janeiro</td>
-                <td>17 223 547</td>
+                <td class="num">17 223 547</td>
             </tr>
             <tr>
                 <td> <img src="./imgs/Bandeira_da_Bahia.svg.webp" alt=""> Bahia</td>
-                <td>14 870 907</td>
+                <td class="num">14 870 907</td>
             </tr>
             <tr>
                 <td> <img src="./imgs/Bandeira_de_Sergipe.svg.webp" alt=""> Sergipe</td>
-                <td></td>
+                <td class="num">2 229 425</td>
             </tr>
 
         </tbody>
         <tfoot>
-
+            <tr>
+                <th scope="row">Total</th>
+                <td class="num" id="foot">213 421 037</td>
+            </tr>
         </tfoot>
     </table>
     
